@@ -11,17 +11,17 @@ The core of EventFinder lies in its scraping engine, capable of handling differe
 
 To install Event Finder, follow these steps:
 
-1. Clone the Repository:
-git clone https://github.com/your-username/event-finder.git
+1. Clone the Repository: <br>
+git clone https://github.com/your-username/event-finder.git <br>
 cd event-finder
 
-2. Build the Project:
-Inside the project directory, run:
+2. Build the Project: <br>
+Inside the project directory, run: <br>
 cargo build --release
 
-3. Run the Application:
-After building, you can start the application using:
-./target/release/event_finder
+3. Run the Application: <br>
+After building, you can start the application using: <br>
+./target/release/event_finder <br>
 This command runs the Event Finder application.
 
 ## How to use
