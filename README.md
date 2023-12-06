@@ -3,14 +3,27 @@
 
 ## Description
 
-EventFinder is a comprehensive web scraping application developed in Rust, designed to help people discover local events happening in Nashville. In today's fast-paced world, finding interesting local activities such as concerts, art exhibitions, workshops, and community gatherings can be a time-consuming task, often requiring individuals to visit multiple websites and sift through a countless information. This application addresses this challenge by aggregating data from various event-listing websites into a single, cohesive platform. By doing so, it not only saves time but also provides a broader range of options for users seeking to engage with their local community or explore new interests.
+EventFinder is a comprehensive web scraping CLI application developed in Rust, designed to help people discover local events happening in Nashville. In today's fast-paced world, finding interesting local activities such as concerts, art exhibitions, workshops, and community gatherings can be a time-consuming task, often requiring individuals to visit multiple websites and sift through a countless information. This application addresses this challenge by aggregating data from various event-listing websites into a single, cohesive platform. By doing so, it not only saves time but also provides a broader range of options for users seeking to engage with their local community or explore new interests.
 
-The core of EventFinder lies in its scraping engine, capable of handling different website layouts and extracting key information. This engine is the heart of the application, ensuring that data from multiple sources is consistently up-to-date and reliable. The application stands out in its ability to normalize disparate data formats. Whether you're looking for a local music festival, an educational workshop, or a community art show, EventFinder makes finding these events as simple and efficient as possible. With its focus on user experience and data accuracy, the application is a gateway to the vibrant array of events that Nashville has to offer.
+The core of EventFinder lies in its scraping engine, capable of handling different website layouts and extracting key information. This engine is the heart of the application, ensuring that data from multiple sources is consistently up-to-date and reliable. The application stands out in its ability to normalize disparate data formats. Whether you're looking for a local music festival, an educational workshop, or a community art show, EventFinder makes finding these events as simple and efficient as possible.
 
 ## Installation
 
-TODO: how to compile and install your project. This can be a trivial `cargo` command, but you may provide additional setup instructions, if needed. The goal here is to make sure that the instructor can compile/install and setup your project.
+To install Event Finder, follow these steps:
+
+1. Clone the Repository:
+git clone https://github.com/your-username/event-finder.git
+cd event-finder
+
+2. Build the Project:
+Inside the project directory, run:
+cargo build --release
+
+3. Run the Application:
+After building, you can start the application using:
+./target/release/event_finder
+This command runs the Event Finder application.
 
 ## How to use
 
-TODO: describe how to use you project after compilation, installation and setup. Show some example use-cases if these are relevant.
+After starting the application, follow the on-screen prompts to choose an event category and view events. You can select from music, unique, general, or all events. To exit the application, choose the 'Quit' option.
